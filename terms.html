@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>利用規約 - Minesweeper</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            line-height: 1.8;
+            color: #333;
+            background: #f5f5f5;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 12px;
+            padding: 40px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        h1 {
+            color: #667eea;
+            margin-bottom: 30px;
+            border-bottom: 3px solid #667eea;
+            padding-bottom: 10px;
+        }
+        
+        h2 {
+            color: #667eea;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            font-size: 1.5em;
+        }
+        
+        p, ul {
+            margin-bottom: 15px;
+        }
+        
+        ul {
+            padding-left: 30px;
+        }
+        
+        .back-link {
+            display: inline-block;
+            margin-top: 30px;
+            color: #667eea;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        
+        .back-link:hover {
+            text-decoration: underline;
+        }
+        
+        .update-date {
+            color: #666;
+            font-size: 0.9em;
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>利用規約</h1>
+        
+        <h2>1. はじめに</h2>
+        <p>本利用規約（以下「本規約」）は、Minesweeper（以下「本アプリ」）の利用条件を定めるものです。本アプリをダウンロード、インストール、または使用することにより、お客様は本規約に同意したものとみなされます。</p>
+        
+        <h2>2. サービス内容</h2>
+        <p>本アプリは、マインスイーパーゲームを提供するアプリケーションです。以下の機能を含みます：</p>
+        <ul>
+            <li>3つの難易度レベル（初級・中級・上級）</li>
+            <li>複数のテーマ（無料1種、プレミアム5種）</li>
+            <li>プレイ統計の記録と表示</li>
+            <li>広告の表示（広告削除課金により非表示可能）</li>
+        </ul>
+        
+        <h2>3. App内課金</h2>
+        <p>本アプリは以下の有料コンテンツを提供しています：</p>
+        <ul>
+            <li>プレミアムテーマ：各¥120（買い切り型）</li>
+            <li>広告削除：¥490（買い切り型）</li>
+        </ul>
+        <p>すべての課金は、Appleのapp内課金システムを通じて処理されます。月額課金ではなく、一度購入すれば永続的に利用できます。</p>
+        
+        <h2>4. 返金ポリシー</h2>
+        <p>App内課金による購入は、原則として返金いたしません。ただし、技術的な問題により購入したコンテンツが利用できない場合は、お問い合わせください。返金についてはAppleの返金ポリシーに従います。</p>
+        
+        <h2>5. 禁止事項</h2>
+        <p>本アプリの利用にあたり、以下の行為を禁止します：</p>
+        <ul>
+            <li>本アプリの不正利用</li>
+            <li>リバースエンジニアリング、逆コンパイル、逆アセンブル</li>
+            <li>本アプリのコピー、改変、再配布</li>
+            <li>チート行為や不正な方法での利用</li>
+        </ul>
+        
+        <h2>6. 知的財産権</h2>
+        <p>本アプリに関する著作権、商標権、その他の知的財産権は、開発者に帰属します。</p>
+        
+        <h2>7. 免責事項</h2>
+        <p>本アプリは「現状のまま」提供されます。開発者は、以下について一切の責任を負いません：</p>
+        <ul>
+            <li>本アプリの使用により生じた損害</li>
+            <li>本アプリの中断、停止、終了</li>
+            <li>データの損失</li>
+            <li>デバイスの不具合</li>
+        </ul>
+        
+        <h2>8. サービスの変更・終了</h2>
+        <p>開発者は、事前の通知なく本アプリの内容を変更、または提供を終了することがあります。</p>
+        
+        <h2>9. 規約の変更</h2>
+        <p>本規約は、必要に応じて変更されることがあります。重要な変更がある場合は、アプリ内またはウェブサイトでお知らせします。</p>
+        
+        <h2>10. 準拠法</h2>
+        <p>本規約は日本法に準拠し、解釈されるものとします。</p>
+        
+        <h2>11. お問い合わせ</h2>
+        <p>本規約に関するご質問は、以下までご連絡ください：</p>
+        <p><strong>Email:</strong> <a href="mailto:your-email@example.com">your-email@example.com</a></p>
+        
+        <p class="update-date">最終更新日：2026年2月14日</p>
+        
+        <a href="index.html" class="back-link">← トップページに戻る</a>
+    </div>
+</body>
+</html>
+```
+
+### 1-3. ファイルをアップロード
+```
+1. GitHubリポジトリページで「Add file」→「Create new file」
+2. ファイル名を入力：index.html
+3. 上記のHTMLコードをコピー＆ペースト
+4. 「Commit new file」をクリック
+5. privacy.html と terms.html も同様に作成
+```
+
+### 1-4. GitHub Pagesを有効化
+```
+1. リポジトリの「Settings」タブをクリック
+2. 左メニューから「Pages」を選択
+3. Source: 「Deploy from a branch」を選択
+4. Branch: 「main」を選択、フォルダは「/(root)」
+5. 「Save」をクリック
+6. 数分待つと公開URLが表示される
+   例：https://yourusername.github.io/minesweeper-support/
+```
+
+### 1-5. URLを確認
+
+公開されたら以下のURLでアクセスできます：
+```
+トップページ：
+https://yourusername.github.io/minesweeper-support/
+
+プライバシーポリシー：
+https://yourusername.github.io/minesweeper-support/privacy.html
+
+利用規約：
+https://yourusername.github.io/minesweeper-support/terms.html
+```
+
+---
+
+## ステップ2：メールアドレスの取得
+
+サポート用のメールアドレスを用意：
+```
+推奨：Gmail、iCloud、独自ドメイン
+例：minesweeper.support@gmail.com
+
+HTMLファイル内の「your-email@example.com」を
+実際のメールアドレスに置き換えてください
+```
+
+---
+
+## ステップ3：Apple Developer Programへの登録
+```
+1. https://developer.apple.com/programs/ にアクセス
+2. 「Enroll」をクリック
+3. Apple IDでサインイン
+4. 個人または法人を選択
+5. ¥12,980を支払い
+6. 承認を待つ（24〜48時間）
+```
+
+---
+
+## ステップ4：Xcodeでアプリアイコンを作成
+
+### 4-1. アイコン画像の準備
+
+**オンラインツールで作成：**
+```
+1. Canva（https://www.canva.com）
+2. Figma（https://www.figma.com）
+3. アイコンジェネレーター（https://appicon.co）
+```
+
+**デザイン例：**
+```
+- 背景：グラデーション（青→紫）
+- 中央：💣絵文字または爆弾のシルエット
+- シンプルで認識しやすいデザイン
+```
+
+**サイズ：**
+```
+1024×1024px（PNG、透過なし）
+```
+
+### 4-2. Xcodeに配置
+```
+1. Xcodeでプロジェクトを開く
+2. Assets.xcassets → AppIcon をクリック
+3. 1024×1024の枠に画像をドラッグ＆ドロップ
+```
+
+---
+
+## ステップ5：スクリーンショットの撮影
+
+### 5-1. シミュレーターで撮影
+```
+1. Xcodeでアプリを起動
+2. シミュレーター：iPhone 15 Pro Max を選択
+3. 各画面を表示して Command + S で保存
+```
+
+### 5-2. 必要なスクリーンショット（最低3枚）
+```
+1. メニュー画面（難易度選択）
+2. ゲームプレイ中の画面
+3. テーマストアまたは統計画面
+4. ゲームクリア画面（任意）
+5. 設定画面（任意）
+```
+
+### 5-3. サイズ確認
+```
+iPhone 15 Pro Max: 1290 × 2796 px
+※シミュレーターで撮影すれば自動的に正しいサイズになります
+```
+
+---
+
+## ステップ6：App Store Connectでアプリを登録
+
+### 6-1. App Store Connectにログイン
+```
+https://appstoreconnect.apple.com/
+```
+
+### 6-2. 新規App作成
+```
+1. 「マイApp」→「+」→「新規App」
+2. 以下を入力：
+
+プラットフォーム：iOS
+名前：Minesweeper
+プライマリ言語：日本語
+Bundle ID：com.yourname.minesweeper
+  （Xcodeのプロジェクト設定と同じもの）
+SKU：minesweeper2026
+  （任意の識別子）
+ユーザーアクセス：フルアクセス
+```
+
+### 6-3. App情報の入力
+
+#### **一般情報**
+```
+カテゴリ：
+  プライマリ：ゲーム
+  セカンダリ：パズル
+```
+
+#### **プライバシーポリシー**
+```
+プライバシーポリシーURL：
+https://yourusername.github.io/minesweeper-support/privacy.html
+```
+
+#### **説明**
+```
+プロモーションテキスト（170文字以内）：
+新テーマ「ブラック」を追加！洗練されたダークモードで快適なプレイ体験。3倍ズーム機能で上級レベルも快適に。
+
+説明（4000文字以内）：
+💣 現代的なマインスイーパー
+
+クラシックなマインスイーパーを、美しいデザインと快適な操作性で楽しめます。
+
+✨ 主な機能
+- 3つの難易度（初級・中級・上級）
+- 6種類の美しいテーマ
+- 触覚フィードバック対応
+- 最大300%ズーム機能
+- 詳細な統計機能
+
+🎨 プレミアムテーマ
+- クラシック（無料）
+- オーシャン - 爽やかな水色
+- サンセット - 温かいオレンジ
+- フォレスト - 落ち着いた緑
+- ミッドナイト - 神秘的な紫
+- ブラック - 洗練された黒
+
+📊 統計機能
+総プレイ数、勝率、難易度別ベストタイムを記録します。
+
+💰 価格
+- 基本プレイ：無料
+- プレミアムテーマ：各¥120
+- 広告削除：¥490
+
+すべて買い切り型で、月額課金はありません。
+```
+
+#### **キーワード**
+```
+マインスイーパー,パズル,マインズ,地雷,ゲーム,クラシック,レトロ,論理
+（100文字以内）
+```
+
+#### **サポートURL**
+```
+https://yourusername.github.io/minesweeper-support/
+```
+
+#### **マーケティングURL**（任意）
+```
+https://yourusername.github.io/minesweeper-support/
+```
+
+### 6-4. スクリーンショットをアップロード
+```
+1. 「App Store」タブ
+2. 「6.7" ディスプレイ」セクション
+3. 撮影したスクリーンショットをドラッグ＆ドロップ
+```
+
+### 6-5. App内課金を登録
+
+#### テーマ1: オーシャン
+```
+1. 「App内課金」タブ → 「+」
+2. タイプ：非消費型
+3. 参照名：オーシャンテーマ
+4. 製品ID：com.yourname.minesweeper.theme.ocean
+5. 価格：¥120
+6. 説明：爽やかな水色のテーマで、海を思わせる美しいデザイン
+7. 「保存」
+```
+
+同様に他のテーマも登録：
+- sunset（サンセット）
+- forest（フォレスト）
+- midnight（ミッドナイト）
+- black（ブラック）
+
+#### 広告削除
+```
+参照名：広告削除
+製品ID：com.yourname.minesweeper.removeads
+価格：¥490
+説明：すべての広告を永久に削除して、快適なプレイ体験を楽しめます
+```
+
+---
+
+## ステップ7：Xcodeからアップロード
+
+### 7-1. バージョン設定
+```
+1. Xcode → プロジェクト設定 → General
+2. Version: 1.0
+3. Build: 1
+```
+
+### 7-2. アーカイブ作成
+```
+1. Xcodeの上部で「Any iOS Device」を選択
+2. Product → Archive
+3. 完了まで待つ（数分）
+```
+
+### 7-3. アップロード
+```
+1. Organizer ウィンドウが開く
+2. 「Distribute App」をクリック
+3. 「App Store Connect」を選択 → Next
+4. 「Upload」を選択 → Next
+5. 自動サイニング → Next
+6. 「Upload」をクリック
+7. 完了まで待つ
+```
+
+---
+
+## ステップ8：審査提出
+
+### 8-1. ビルドを選択（10〜30分待つ）
+```
+1. App Store Connect に戻る
+2. 「マイApp」→ Minesweeper
+3. 「+バージョン」→ 1.0
+4. 「ビルド」をクリック
+5. アップロードしたビルドを選択
+```
+
+### 8-2. 審査情報入力
+```
+連絡先情報：
+  名前：あなたの名前
+  電話番号：080-XXXX-XXXX
+  メール：minesweeper.support@gmail.com
+
+審査用メモ：
+「App内課金でテーマと広告削除を提供しています。
+すべての機能は設定メニューからアクセスできます。
+プライバシーポリシーと利用規約はGitHub Pagesで公開しています。」
+```
+
+### 8-3. 年齢制限
+```
+年齢制限：4+
+```
+
+### 8-4. 提出
+```
+「審査に提出」ボタンをクリック
+```
+
+---
+
+## ステップ9：審査待ち
+```
+審査期間：通常24〜48時間
+
+状態遷移：
+審査待ち → 審査中 → 承認 or リジェクト
+```
+
+---
+
+## ステップ10：承認後の公開
+```
+1. 承認メールが届く
+2. App Store Connectで「リリース」をクリック
+3. 数時間後にApp Storeに表示される
+```
+
+---
+
+## 重要なURLまとめ
+```
+プライバシーポリシー：
+https://yourusername.github.io/minesweeper-support/privacy.html
+
+利用規約：
+https://yourusername.github.io/minesweeper-support/terms.html
+
+サポート：
+https://yourusername.github.io/minesweeper-support/
+
+お問い合わせ：
+minesweeper.support@gmail.com
+```
+
+---
+
+## チェックリスト
+```
+□ GitHubリポジトリ作成
+□ index.html 作成・アップロード
+□ privacy.html 作成・アップロード
+□ terms.html 作成・アップロード
+□ GitHub Pages 有効化
+□ URLの動作確認
+□ メールアドレス your-email@example.com を実際のものに変更
+□ Apple Developer Program登録
+□ アプリアイコン作成（1024×1024）
+□ スクリーンショット撮影（最低3枚）
+□ App Store Connect でアプリ登録
+□ App内課金商品登録（6個）
+□ Xcodeからアップロード
+□ 審査提出
